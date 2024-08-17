@@ -1,6 +1,6 @@
 !Assay
-seqspec_version: 0.0.0
-assay_id: 'neat-seq'
+seqspec_version: 0.1.1
+assay_id: "neat-seq"
 name: NEAT-seq
 doi: https://doi.org/10.1038/s41592-022-01461-y
 date: 02 May 2022
@@ -8,11 +8,11 @@ description: NEAT-seq- simultaneous profiling of intra-nuclear proteins, chromat
 modalities:
 - rna
 - atac
-lib_struct: 'neat-seq'
-library_protocol: 'neat-seq'
-library_kit: 'neat-seq'
-sequence_protocol: 'neat-seq'
-sequence_kit: 'neat-seq'
+lib_struct: "neat-seq"
+library_protocol: "neat-seq"
+library_kit: "neat-seq"
+sequence_protocol: "neat-seq"
+sequence_kit: "neat-seq"
 sequence_spec:
 - !Read
   read_id: RNA_S1_L001_R1_001.fastq.gz
@@ -80,9 +80,9 @@ library_spec:
     region_type: truseq_read1
     name: Truseq Read 1
     sequence_type: fixed
-    sequence: 
-    min_len: 0
-    max_len: 0
+    sequence: TCTTTCCCTACACGACGCTCTTCCGATCT
+    min_len: 29
+    max_len: 29
     onlist: null
     regions: null
   - !Region
@@ -127,9 +127,9 @@ library_spec:
     region_type: truseq_read2
     name: Truseq Read 2
     sequence_type: fixed
-    sequence: 
-    min_len: 0
-    max_len: 0
+    sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+    min_len: 34
+    max_len: 34
     onlist: null
     regions: null
   - !Region
@@ -170,9 +170,9 @@ library_spec:
     region_type: truseq_read1
     name: Truseq Read 1
     sequence_type: fixed
-    sequence: 
-    min_len: 0
-    max_len: 0
+    sequence: TCTTTCCCTACACGACGCTCTTCCGATCT
+    min_len: 29
+    max_len: 29
     onlist: null
     regions: null
     parent_id: atac
@@ -203,9 +203,9 @@ library_spec:
     region_type: truseq_read2
     name: Index 2
     sequence_type: fixed
-    sequence: 
-    min_len: 0
-    max_len: 0
+    sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+    min_len: 34
+    max_len: 34
     onlist: null
     regions: null
     parent_id: atac
@@ -239,9 +239,9 @@ library_spec:
     region_type: truseq_read2
     name: Truseq Read 2
     sequence_type: fixed
-    sequence: 
-    min_len: 0
-    max_len: 0
+    sequence: GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT
+    min_len: 34
+    max_len: 34
     onlist: null
     regions: null
     parent_id: atac
@@ -272,9 +272,9 @@ library_spec:
     region_type: truseq_read1
     name: Index 1
     sequence_type: fixed
-    sequence: 
-    min_len: 0
-    max_len: 0
+    sequence: TCTTTCCCTACACGACGCTCTTCCGATCT
+    min_len: 29
+    max_len: 29
     onlist: null
     regions: null
     parent_id: atac
