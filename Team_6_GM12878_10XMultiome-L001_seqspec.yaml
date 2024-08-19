@@ -132,7 +132,6 @@ library_spec:
       max_len: 12
       onlist: null
       regions: null
-  regions:
   - !Region
     parent_id: rna
     region_id: cDNA
